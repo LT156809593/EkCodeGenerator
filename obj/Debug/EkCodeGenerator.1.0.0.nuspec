@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EkCodeGenerator</id>
+    <version>1.0.0</version>
+    <authors>EkCodeGenerator</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.Extensions.Configuration" version="3.1.6" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Configuration.Json" version="3.1.6" exclude="Build,Analyzers" />
+        <dependency id="System.Data.SqlClient" version="4.8.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="E:\_IceInk\EkCodeGenerator\bin\Debug\netcoreapp3.1\EkCodeGenerator.runtimeconfig.json" target="lib\netcoreapp3.1\EkCodeGenerator.runtimeconfig.json" />
+    <file src="E:\_IceInk\EkCodeGenerator\bin\Debug\netcoreapp3.1\EkCodeGenerator.dll" target="lib\netcoreapp3.1\EkCodeGenerator.dll" />
+  </files>
+</package>
